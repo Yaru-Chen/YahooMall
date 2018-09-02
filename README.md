@@ -23,7 +23,5 @@ collection = db['mall']
 /# test if connection success /
 
 for i in collection.find({'enqueue_date':'2018-09-02'}):
-
     print (i)
-    
     break
