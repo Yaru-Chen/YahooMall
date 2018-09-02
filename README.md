@@ -1,0 +1,2 @@
+# YahooMall
+CrawelYahooMallData_byScrapy
