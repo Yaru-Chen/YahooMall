@@ -12,12 +12,13 @@ CrawelYahooMallData_byScrapy
 from pymongo import MongoClient
 from bson.objectid import ObjectId #這東西再透過ObjectID去尋找的時候會用到
 
-/# connection
+/# connection /
+
 conn = MongoClient("mongodb://sklee:295122@shiaukuan.asuscomm.com:27017") 
 db = conn['yahoo']
 collection = db['mall']
 
-/# test if connection success
+/# test if connection success /
 for i in collection.find({'enqueue_date':'2018-09-02'}):
     print (i)
     break
