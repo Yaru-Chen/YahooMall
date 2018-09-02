@@ -9,7 +9,9 @@ CrawelYahooMallData_byScrapy
 
 # query需求
 在做爬蟲時，有同步將資料存到朋友的mandoDB下，所以如果需要query資料時，可以用以下指令找想要的資料
+
 from pymongo import MongoClient
+
 from bson.objectid import ObjectId #這東西再透過ObjectID去尋找的時候會用到
 
 /# connection /
